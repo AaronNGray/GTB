@@ -1,0 +1,83 @@
+This is the distribution for GTB V2.5 dated 1 November 2005
+
+0. Pre-built executables.
+
+The Unix distribution contains a pre-built executable called gtb that
+runs under Linux.
+
+The Windows distribution contains a pre-built executable called
+gtb_cygwin.exe that runs under cygwin on Windows (a Unix emulation
+environment) and another called gtb_xp.exe which runs under plain
+Windows-XP.
+
+1. To build under Linux, Cygwin on Windows or other systems with the
+GNU g++ compiler and GNU make installed: type make in this directory.
+
+2. To build on other systems
+
+If you are running on a non-Linux system, you should be able to
+achieve the same result by typing
+
+   my_cpp -I src/gtb -I src/gtb_lib -o gtb src/gtb/*.cpp src/gtb_lib/*.cpp
+
+where my_cpp is substituted with the name of your C++ compiler in the
+command above. This certainly works for bcc32, the Borland V5.1
+compiler that we use for development, and got g++.
+
+3. Compiler warnings
+
+GTB should compile without warnings on the standard settings. 
+
+There are instances of unused code, paramaters and variables that will
+generate warnings if the g++ -Wall option is used.
+
+4. Known problems
+
+GTB assumes that pointers and integers are the same size. On some
+64-bit architectures (DEC/Compaq Alpha) this assumption is not
+valid. g++ will issue warnings in such cases.
+
+5. Using GTB
+
+Once built, we suggest that you start with the short introduction
+manual gtb_brief.pdf. People who are unfamiliar with parsing
+algorithms might prefer to work through the detailed tutorial manual
+gtb_tut.pdf which makes use of gtb scripts in directories tut_ex and
+lib_ex.
+
+6. Visualising output
+
+GTB can output graphs suitable for display with the VCG and AiSEE
+tools. We strongly recommend that you acquire one of these tools.
+
+A. VCG is available for free under the terms of the GPL from 
+
+     http://rw4.cs.uni-sb.de/~sander/html/gsvcg1.html
+
+You can also collect the two distribution files from our FTP server
+
+     ftp://ftp.cs.rhul.ac.uk/pub/rdp
+
+Download vcg_p1.zip and vcg_p2.zip. Installation is straightforward:
+simply unzip both files into a directory of your choice and run the
+executable vcg.exe directly.
+
+
+B. AISee is a commercial tool developed from VCG: it is free for academic use but you need to register: see http://www.aisee.com/ 
+
+AISee is more stable than VCG and has some new features. We recommend it.
+
+
+7. Source code
+
+The source code lives in two directories: src/gtb_lib contains the
+library which is common to GTB and some of the other tools developed
+here, and src/gtb contains the modules which are specific to
+GTB. Together they make just over 22,000 lines of code: happy reading!
+
+                  Adrian and Elizabeth
+
+a.johnstone@rhul.ac.uk
+e.scott@rhul.ac.uk
+
+

@@ -1,0 +1,25 @@
+
+
+lr0 := dfa[nfa[grammar[S] lr 0]]
+
+slr := dfa[nfa[grammar[S] slr 1 singleton_lookahead_sets]]
+
+lr1 := dfa[nfa[grammar[S] lr 1]]
+
+lalr := la_merge[dfa[nfa[grammar[S] lr 1]]]
+
+tomita_dfa := dfa[nfa[grammar[S] lr 1]
+this_derivation := tomita_1_parse[tomita_dfa "ab"]
+
+rn_dfa := dfa[nfa[grammar[S] lr 1 nullable_reductions]]
+write[open["parse.tbl"] rn_dfa]
+
+
+ri_dfa := dfa[nfa[grammar[S] ri 1 nullable_reductions]]
+write[open["ri_parse.tbl"] ri_dfa]
+
+
+
+rnglr_derivation := rnglr_parse[rn_dfa]
+
+this_derivation := tomita_1_parse[rn_dfa "baa"]

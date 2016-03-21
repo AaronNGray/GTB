@@ -1,0 +1,94 @@
+graph:{
+orientation:top_to_bottom
+edge.arrowsize:7
+edge.thickness:1
+display_edge_labels:yes
+arrowmode:free
+node.borderwidth:1
+node:{title:"1"label:"text" horizontal_order:1 shape:ellipse }
+edge:{sourcename:"1" targetname:"2" horizontal_order:999}
+edge:{sourcename:"1" targetname:"29" horizontal_order:998}
+node:{title:"29"label:"script" horizontal_order:29 shape:ellipse }
+edge:{sourcename:"29" targetname:"30" horizontal_order:997}
+edge:{sourcename:"29" targetname:"85" horizontal_order:996}
+edge:{sourcename:"29" targetname:"126" horizontal_order:995}
+edge:{sourcename:"29" targetname:"151" horizontal_order:994}
+edge:{sourcename:"29" targetname:"219" horizontal_order:993}
+edge:{sourcename:"29" targetname:"272" horizontal_order:992}
+edge:{sourcename:"29" targetname:"313" horizontal_order:991}
+node:{title:"313"label:"write" horizontal_order:313}
+edge:{sourcename:"313" targetname:"316" horizontal_order:990}
+node:{title:"316"label:"ex13_grammar" horizontal_order:316}
+node:{title:"272"label:"terminalise_grammar" horizontal_order:272}
+edge:{sourcename:"272" targetname:"275" horizontal_order:989}
+edge:{sourcename:"272" targetname:"289" horizontal_order:988}
+node:{title:"289"label:"nonterminal" horizontal_order:289}
+node:{title:"275"label:"ex13_grammar" horizontal_order:275}
+node:{title:"219"label:"render" horizontal_order:219}
+edge:{sourcename:"219" targetname:"222" horizontal_order:987}
+edge:{sourcename:"219" targetname:"248" horizontal_order:986}
+node:{title:"248"label:"iria_S" horizontal_order:248}
+node:{title:"222"label:"open" horizontal_order:222}
+edge:{sourcename:"222" targetname:"225" horizontal_order:985}
+node:{title:"225"label:"'nfa.vcg'" horizontal_order:225}
+node:{title:"151"label:"':='" horizontal_order:151}
+edge:{sourcename:"151" targetname:"153" horizontal_order:984}
+edge:{sourcename:"151" targetname:"165" horizontal_order:983}
+node:{title:"165"label:"nfa" horizontal_order:165}
+edge:{sourcename:"165" targetname:"168" horizontal_order:982}
+edge:{sourcename:"165" targetname:"182" horizontal_order:981}
+edge:{sourcename:"165" targetname:"196" horizontal_order:980}
+node:{title:"196"label:"INTEGER: 0" horizontal_order:196}
+node:{title:"182"label:"unrolled" horizontal_order:182}
+node:{title:"168"label:"ex13_grammar" horizontal_order:168}
+node:{title:"153"label:"iria_S" horizontal_order:153}
+node:{title:"126"label:"write" horizontal_order:126}
+edge:{sourcename:"126" targetname:"129" horizontal_order:979}
+node:{title:"129"label:"ex13_grammar" horizontal_order:129}
+node:{title:"85"label:"terminalise_grammar" horizontal_order:85}
+edge:{sourcename:"85" targetname:"88" horizontal_order:978}
+edge:{sourcename:"85" targetname:"102" horizontal_order:977}
+node:{title:"102"label:"terminal" horizontal_order:102}
+node:{title:"88"label:"ex13_grammar" horizontal_order:88}
+node:{title:"30"label:"':='" horizontal_order:30}
+edge:{sourcename:"30" targetname:"32" horizontal_order:976}
+edge:{sourcename:"30" targetname:"44" horizontal_order:975}
+node:{title:"44"label:"grammar" horizontal_order:44}
+edge:{sourcename:"44" targetname:"47" horizontal_order:974}
+edge:{sourcename:"44" targetname:"61" horizontal_order:973}
+node:{title:"61"label:"tilde_enabled" horizontal_order:61}
+node:{title:"47"label:"S" horizontal_order:47}
+node:{title:"32"label:"ex13_grammar" horizontal_order:32}
+node:{title:"2"label:"rules" horizontal_order:2 shape:ellipse }
+edge:{sourcename:"2" targetname:"3" horizontal_order:972}
+edge:{sourcename:"2" targetname:"11" horizontal_order:971}
+edge:{sourcename:"2" targetname:"21" horizontal_order:970}
+node:{title:"21"label:"B" horizontal_order:21}
+edge:{sourcename:"21" targetname:"24" horizontal_order:969}
+node:{title:"24"label:"prod" horizontal_order:24 shape:ellipse }
+edge:{sourcename:"24" targetname:"25" horizontal_order:968}
+edge:{sourcename:"24" targetname:"28" horizontal_order:967}
+node:{title:"28"label:"'c'" horizontal_order:28}
+node:{title:"25"label:"A" horizontal_order:25}
+edge:{sourcename:"25" targetname:"26" horizontal_order:966}
+node:{title:"26"label:"'~'" horizontal_order:26}
+node:{title:"11"label:"A" horizontal_order:11}
+edge:{sourcename:"11" targetname:"14" horizontal_order:965}
+edge:{sourcename:"11" targetname:"19" horizontal_order:964}
+node:{title:"19"label:"prod" horizontal_order:19 shape:ellipse }
+edge:{sourcename:"19" targetname:"20" horizontal_order:963}
+node:{title:"20"label:"'a'" horizontal_order:20}
+node:{title:"14"label:"prod" horizontal_order:14 shape:ellipse }
+edge:{sourcename:"14" targetname:"15" horizontal_order:962}
+edge:{sourcename:"14" targetname:"16" horizontal_order:961}
+node:{title:"16"label:"B" horizontal_order:16}
+node:{title:"15"label:"'a'" horizontal_order:15}
+node:{title:"3"label:"S" horizontal_order:3}
+edge:{sourcename:"3" targetname:"6" horizontal_order:960}
+node:{title:"6"label:"prod" horizontal_order:6 shape:ellipse }
+edge:{sourcename:"6" targetname:"7" horizontal_order:959}
+edge:{sourcename:"6" targetname:"10" horizontal_order:958}
+node:{title:"10"label:"'a'" horizontal_order:10}
+node:{title:"7"label:"A" horizontal_order:7}
+
+}

@@ -1,0 +1,48 @@
+graph:{
+orientation:top_to_bottom
+edge.arrowsize:7
+edge.thickness:1
+display_edge_labels:yes
+dirty_edge_labels:yes
+arrowmode:free
+node.borderwidth:1
+priority_phase:yes
+straight_phase:yes
+node:{title:"12.29" horizontal_order:29 level:0 shape:box label:"12.29: S!augmented "}
+node:{title:"16.29" level:2 shape:box horizontal_order: 2916 label: "16.29: S!augmented ::= b02.31n S  "}
+edge:{priority:1000 label:"#"  class:2 sourcename:"12.29" targetname:"16.29"}
+node:{title:"21.29" level:4 shape:box horizontal_order: 2921 label: "21.29: S!augmented ::= S b02.31n  " bordercolor:cyan borderwidth:3}
+edge:{priority:1000 label:"S"  class:1 sourcename:"16.29" targetname:"21.29"}
+edge:{color:red label:"#" class:3 sourcename:"16.29" targetname:"15.30"}
+node:{title:"15.30" horizontal_order:30 level:6 shape:box label:"15.30: S "}
+node:{title:"20.30" level:8 shape:box horizontal_order: 3020 label: "20.30: S ::= b02.31n A 'a'  "}
+edge:{priority:1000 label:"#"  class:2 sourcename:"15.30" targetname:"20.30"}
+node:{title:"25.30" level:10 shape:box horizontal_order: 3025 label: "25.30: S ::= A b02.31n 'a'  "}
+edge:{priority:1000 label:"A"  class:1 sourcename:"20.30" targetname:"25.30"}
+edge:{color:red label:"#" class:3 sourcename:"20.30" targetname:"14.31"}
+node:{title:"14.31" horizontal_order:31 level:14 shape:box label:"14.31: A "}
+node:{title:"19.31" level:16 shape:box horizontal_order: 3119 label: "19.31: A ::= b02.31n 'a' B  "}
+edge:{priority:1000 label:"#"  class:2 sourcename:"14.31" targetname:"19.31"}
+node:{title:"24.31" level:18 shape:box horizontal_order: 3124 label: "24.31: A ::= 'a' b02.31n B  "}
+edge:{priority:1000 label:"'a'"  class:2 sourcename:"19.31" targetname:"24.31"}
+node:{title:"27.31" level:20 shape:box horizontal_order: 3127 label: "27.31: A ::= 'a' B b02.31n  " bordercolor:blue borderwidth:3}
+edge:{priority:1000 label:"B"  class:1 sourcename:"24.31" targetname:"27.31"}
+backedge:{color:blue label:"R(A,1,2)" class:5 sourcename:"27.31" targetname:"25.30"}
+edge:{color:red label:"#" class:3 sourcename:"24.31" targetname:"13.32"}
+node:{title:"13.32" horizontal_order:32 level:22 shape:box label:"13.32: B "}
+node:{title:"17.32" level:24 shape:box horizontal_order: 3217 label: "17.32: B ::= b02.31n 'A!tilde' 'c'  "}
+edge:{priority:1000 label:"#"  class:2 sourcename:"13.32" targetname:"17.32"}
+node:{title:"22.32" level:26 shape:box horizontal_order: 3222 label: "22.32: B ::= 'A!tilde' b02.31n 'c'  "}
+edge:{priority:1000 label:"'A!tilde'"  class:2 sourcename:"17.32" targetname:"22.32"}
+node:{title:"26.32" level:28 shape:box horizontal_order: 3226 label: "26.32: B ::= 'A!tilde' 'c' b02.31n  " bordercolor:blue borderwidth:3}
+edge:{priority:1000 label:"'c'"  class:2 sourcename:"22.32" targetname:"26.32"}
+backedge:{color:blue label:"R(B,1,2)" class:5 sourcename:"26.32" targetname:"27.31"}
+node:{title:"18.31" level:16 shape:box horizontal_order: 3118 label: "18.31: A ::= b02.31n 'a'  "}
+edge:{priority:1000 label:"#"  class:2 sourcename:"14.31" targetname:"18.31"}
+node:{title:"23.31" level:18 shape:box horizontal_order: 3123 label: "23.31: A ::= 'a' b02.31n  " bordercolor:blue borderwidth:3}
+edge:{priority:1000 label:"'a'"  class:2 sourcename:"18.31" targetname:"23.31"}
+backedge:{color:blue label:"R(A,2,1)" class:5 sourcename:"23.31" targetname:"25.30"}
+node:{title:"28.30" level:12 shape:box horizontal_order: 3028 label: "28.30: S ::= A 'a' b02.31n  " bordercolor:blue borderwidth:3}
+edge:{priority:1000 label:"'a'"  class:2 sourcename:"25.30" targetname:"28.30"}
+backedge:{color:blue label:"R(S,1,2)" class:5 sourcename:"28.30" targetname:"21.29"}
+}
