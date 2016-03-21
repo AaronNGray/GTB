@@ -1,0 +1,65 @@
+﻿Build started 02/06/2013 23:09:48.
+     1>Project "C:\Users\Aaron\Languages\gtb-win-2.51\VisualStudio2012\gtb-lib\gtb-lib.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\src\gtb_lib /I..\..\src\gtb /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\gtb_lib\arg.cpp ..\..\src\gtb_lib\hist.cpp ..\..\src\gtb_lib\memalloc.cpp ..\..\src\gtb_lib\scan.cpp ..\..\src\gtb_lib\scanner.cpp ..\..\src\gtb_lib\set.cpp ..\..\src\gtb_lib\symbol.cpp ..\..\src\gtb_lib\textio.cpp ..\..\src\gtb_lib\util.cpp
+         util.cpp
+         textio.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(207): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(208): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(220): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(299): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(323): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(330): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(332): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(333): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(610): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(765): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(776): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\textio.cpp(826): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+         symbol.cpp
+         set.cpp
+         scanner.cpp
+         scan.cpp
+         memalloc.cpp
+         hist.cpp
+         arg.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\arg.cpp(94): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\src\gtb /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\gtb_lib\graph.cpp ..\..\src\gtb_lib\trie.cpp
+         trie.cpp
+         graph.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb_lib\graph.cpp(1056): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Aaron\Languages\gtb-win-2.51\VisualStudio2012\Debug\gtb-lib.lib" /NOLOGO Debug\arg.obj
+         Debug\graph.obj
+         Debug\hist.obj
+         Debug\memalloc.obj
+         Debug\scan.obj
+         Debug\scanner.obj
+         Debug\set.obj
+         Debug\symbol.obj
+         Debug\textio.obj
+         Debug\trie.obj
+         Debug\util.obj
+         gtb-lib.vcxproj -> C:\Users\Aaron\Languages\gtb-win-2.51\VisualStudio2012\Debug\gtb-lib.lib
+     1>Done Building Project "C:\Users\Aaron\Languages\gtb-win-2.51\VisualStudio2012\gtb-lib\gtb-lib.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57

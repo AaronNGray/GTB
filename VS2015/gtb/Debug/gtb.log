@@ -1,0 +1,192 @@
+﻿Build started 02/06/2013 23:09:48.
+     1>Project "C:\Users\Aaron\Languages\gtb-win-2.51\VisualStudio2012\gtb\gtb.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\src\gtb_lib /I..\..\src\gtb /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\gtb\gtb.cpp ..\..\src\gtb\gtb_ah.cpp ..\..\src\gtb\gtb_dfa.cpp ..\..\src\gtb\gtb_gdg.cpp ..\..\src\gtb\gtb_gdg_analyse_fast.cpp ..\..\src\gtb\gtb_gen.cpp ..\..\src\gtb\gtb_gp.cpp ..\..\src\gtb\gtb_gram.cpp ..\..\src\gtb\gtb_lex.cpp ..\..\src\gtb\gtb_nfa.cpp ..\..\src\gtb\gtb_rd.cpp ..\..\src\gtb\gtb_rnglr_prs.cpp ..\..\src\gtb\gtb_rnglr_rec.cpp ..\..\src\gtb\gtb_scr.cpp ..\..\src\gtb\gtb_sr.cpp
+         gtb_sr.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(37): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(39): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(93): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(105): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(414): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(417): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(417): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(551): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(554): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(554): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(602): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(608): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(635): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_sr.cpp(641): warning C4018: '>=' : signed/unsigned mismatch
+         gtb_scr.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(345): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(346): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(347): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(348): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(492): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1031): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1068): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1144): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1198): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1233): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1271): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1308): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1345): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1383): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1421): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_scr.cpp(1641): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         gtb_rnglr_rec.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_rec.cpp(268): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_rec.cpp(289): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_rec.cpp(398): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_rec.cpp(436): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_rec.cpp(475): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_rec.cpp(546): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_rec.cpp(573): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_rec.cpp(624): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_rec.cpp(631): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_rec.cpp(631): warning C4018: '<' : signed/unsigned mismatch
+         gtb_rnglr_prs.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(64): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(133): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(413): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(448): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(469): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(578): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(616): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(655): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(726): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(753): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(804): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(811): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rnglr_prs.cpp(811): warning C4018: '<' : signed/unsigned mismatch
+         gtb_rd.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_rd.cpp(95): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         gtb_nfa.cpp
+         gtb_lex.cpp
+         gtb_gram.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gram.cpp(408): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gram.cpp(920): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gram.cpp(921): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gram.cpp(1023): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gram.cpp(1056): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gram.cpp(1057): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gram.cpp(1133): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gram.cpp(1387): warning C4018: '<=' : signed/unsigned mismatch
+         gtb_gp.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gp.cpp(94): warning C4101: 'current_earley_set' : unreferenced local variable
+         gtb_gen.cpp
+         gtb_gdg_analyse_fast.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg_analyse_fast.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg_analyse_fast.cpp(96): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg_analyse_fast.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg_analyse_fast.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg_analyse_fast.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg_analyse_fast.cpp(157): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg_analyse_fast.cpp(313): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg_analyse_fast.cpp(567): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg_analyse_fast.cpp(655): warning C4018: '<' : signed/unsigned mismatch
+         gtb_gdg.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg.cpp(1184): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg.cpp(1185): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gdg.cpp(1426): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         gtb_dfa.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(568): warning C4258: 'this_slot' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(447) : definition of 'this_slot' ignored
+                 c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(355) : definition of 'this_slot' used
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(571): warning C4258: 'this_slot' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(447) : definition of 'this_slot' ignored
+                 c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(355) : definition of 'this_slot' used
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(573): warning C4258: 'this_slot' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(447) : definition of 'this_slot' ignored
+                 c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(355) : definition of 'this_slot' used
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(1001): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(1462): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(1465): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(1499): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_dfa.cpp(1581): warning C4018: '<' : signed/unsigned mismatch
+         gtb_ah.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(120): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(121): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(170): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(171): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(188): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(189): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(215): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(216): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(601): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(614): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(616): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(656): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(657): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(944): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(950): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(955): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(961): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_ah.cpp(1637): warning C4018: '<' : signed/unsigned mismatch
+         gtb.cpp
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb.cpp(1634): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Generating Code...
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gp.cpp(116): warning C4700: uninitialized local variable 'token_count' used
+     1>c:\users\aaron\languages\gtb-win-2.51\src\gtb\gtb_gp.cpp(87): warning C4700: uninitialized local variable 'token_count' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaron\Languages\gtb-win-2.51\VisualStudio2012\Debug\gtb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "..\Debug\gtb-lib.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aaron\Languages\gtb-win-2.51\VisualStudio2012\Debug\gtb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaron\Languages\gtb-win-2.51\VisualStudio2012\Debug\gtb.lib" /MACHINE:X86 Debug\gtb.obj
+         Debug\gtb_ah.obj
+         Debug\gtb_dfa.obj
+         Debug\gtb_gdg.obj
+         Debug\gtb_gdg_analyse_fast.obj
+         Debug\gtb_gen.obj
+         Debug\gtb_gp.obj
+         Debug\gtb_gram.obj
+         Debug\gtb_lex.obj
+         Debug\gtb_nfa.obj
+         Debug\gtb_rd.obj
+         Debug\gtb_rnglr_prs.obj
+         Debug\gtb_rnglr_rec.obj
+         Debug\gtb_scr.obj
+         Debug\gtb_sr.obj
+         gtb.vcxproj -> C:\Users\Aaron\Languages\gtb-win-2.51\VisualStudio2012\Debug\gtb.exe
+     1>Done Building Project "C:\Users\Aaron\Languages\gtb-win-2.51\VisualStudio2012\gtb\gtb.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.66

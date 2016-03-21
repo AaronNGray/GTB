@@ -1,0 +1,49 @@
+﻿  util.cpp
+  trie.cpp
+  textio.cpp
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(91): warning C4244: 'return': conversion from '__int64' to 'unsigned long', possible loss of data
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(207): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(208): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(220): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(291): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(299): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(323): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(330): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(332): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(333): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(610): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(749): warning C4244: 'initializing': conversion from '__int64' to 'long', possible loss of data
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(751): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(765): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(776): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\textio.cpp(826): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  symbol.cpp
+  set.cpp
+  scanner.cpp
+  scan.cpp
+  memalloc.cpp
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\memalloc.cpp(27): warning C4267: '+=': conversion from 'size_t' to 'unsigned long', possible loss of data
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\memalloc.cpp(46): warning C4267: '+=': conversion from 'size_t' to 'unsigned long', possible loss of data
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\memalloc.cpp(59): warning C4267: '+=': conversion from 'size_t' to 'unsigned long', possible loss of data
+  hist.cpp
+  graph.cpp
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\graph.cpp(1056): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  arg.cpp
+c:\users\aaron\skydrive\projects\language\gtb-win-2.51\src\gtb_lib\arg.cpp(94): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+  Generating Code...
+  gtb-lib64.vcxproj -> C:\Users\Aaron\SkyDrive\Projects\Language\gtb-win-2.51\VisualStudio2012\x64\Debug\gtb-lib64.lib
